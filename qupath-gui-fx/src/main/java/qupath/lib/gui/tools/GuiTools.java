@@ -791,7 +791,7 @@ public class GuiTools {
 	
 			// Set the description only if we have to
 			String description = textAreaDescription.getText();
-			if (description == null || description.isEmpty())
+			if (description == null)
 				temp.setDescription(null);
 			else
 				temp.setDescription(description);
